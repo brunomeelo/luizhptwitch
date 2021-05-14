@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: minhaFonte;
+}
+@font-face {
+    font-family: MinhaFonte;
+    src: url(./Lemon\ Friday.ttf);
+}
+body{
+    background-image: url(./bgluiz4.jpg);
+    background-position: center;
+    background-size: 3450px;
+    height: 1080px;
+    
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#teia{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 50%;
+}
+header{
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+    text-shadow: rgb(27, 165, 165) -0.035em 0.035em 0.05rem, rgb(192, 19, 180) 0.035em -0.035em 0.05rem;
+
+}
+
+#video{
+    margin-top: 30px;
+}
+#botoes{
+
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+#botao:hover{
+    text-shadow: rgb(27, 165, 165) -0.035em 0.035em 0.05rem, rgb(192, 19, 180) 0.035em -0.035em 0.05rem;
+
+}
+
+.botao{
+    width: 150px;
+    height: 150px;
+    border-radius: 9px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1); 
+    /* background-color: blue; */
+}
+.botao:hover{
+    box-shadow: 10px 10px 10px rgb(255, 255, 255);
+    
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+#twitch{
+    background-color: rgb(161, 112, 206);
+    background-image: url(./twitchlogo.png);
+    background-image: cover;
+
+}
+#discord{
+    background-color: #859fff;
+    background-image: url(./discordlogo.png);
+}
+#twitter{
+    background-color: #02ace3;
+    background-image: url(./twitterlogo.png);
+}
+#doacao{
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 35px;
+    text-shadow: rgb(27, 165, 165) -0.035em 0.035em 0.05rem, rgb(192, 19, 180) 0.035em -0.035em 0.05rem;
+}
